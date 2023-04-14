@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 
 
-   <link href="style.css" rel="stylesheet" />
+    <link href="/../style.css" rel="stylesheet" />
 
 <body>
     
