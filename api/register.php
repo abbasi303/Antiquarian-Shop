@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 
-
+<?= include_once __DIR__ . '/../includes/head.php' ?>
     <link href="/../style.css" rel="stylesheet" />
 
 <body>
