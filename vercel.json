@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/$", "dest": "api/index.php" },
+    { "src": "/login$", "dest": "api/login.php" },
+    { "src": "/logout$", "dest": "api/logout.php" },
+    { "src": "/register$", "dest": "api/register.php" },
+    { "src": "/bookrequest$", "dest": "api/bookrequest.php" },
+    { "src": "/api/(.*)", "dest": "api/$1" }
+  ],
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  }
+}
