@@ -57,7 +57,7 @@ require_once __DIR__ . '/../utils/init.php';
 <html>
 
 <?= include_once __DIR__ . '/../includes/head.php' ?>
-    <link href="../style.css" rel="stylesheet" />
+    <link href="/../style.css" rel="stylesheet" />
 
 
 <body>
