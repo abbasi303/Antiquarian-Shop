@@ -65,7 +65,7 @@ require_once __DIR__ . '/../utils/init.php';
 <!DOCTYPE html>
 <html>
 <?= include_once __DIR__ . '/../includes/head.php' ?>
-        <link href="style.css" rel="stylesheet" />
+    <link href="/../style.css" rel="stylesheet" />
 
     <body class="nav-small book-request">
 <?= include_once __DIR__ . '/../includes/nav.php' ?>
